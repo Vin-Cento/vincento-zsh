@@ -37,3 +37,6 @@ source $ZDOTDIR/alias.zsh
 # AutoSuggestions
 source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#787c99"
+
+# Syntax highlight
+source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
