@@ -7,3 +7,6 @@
 [submodule "zsh-colored-man-pages"]
 	path = zsh-colored-man-pages
 	url = git@github.com:ael-code/zsh-colored-man-pages.git
+[submodule "spaceship-prompt"]
+	path = spaceship-prompt
+	url = git@github.com:spaceship-prompt/spaceship-prompt.git
