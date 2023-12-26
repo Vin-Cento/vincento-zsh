@@ -43,8 +43,8 @@ source $ZDOTDIR/zsh-colored-man-pages/colored-man-pages.plugin.zsh
 # FZF
 source $ZDOTDIR/fzf/completion.zsh
 source $ZDOTDIR/fzf/key-bindings.zsh
-
-# eval "$(lua ~/.config/zsh/z.lua/z.lua --init zsh enhanced once)"
+# ZSH Z
+source $ZDOTDIR/zsh-z/zsh-z.plugin.zsh
 
 # aliases
 source $ZDOTDIR/alias.zsh
