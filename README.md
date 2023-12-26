@@ -10,6 +10,17 @@ The story of this configuration started back in 2020. Back then I made the consc
 ## Requirement
 * fzf
 
+## Installation
+```bash
+# download the main repo
+git clone https://github.com/Vin-Cento/vincento-zsh.git
+# download the submodules
+git submodule update --init --recursive
+
+echo "export ZDOTDIR=$HOME/.config/zsh" >> $HOME/.zshenv
+mv vincento-zsh $HOME/.config/zsh
+```
+
 ## Prompt ([Spaceship](https://github.com/spaceship-prompt/spaceship-prompt))
 I picked an existing prompt. You can edit the setting of `spaceship-prompt` in ~/.config/spaceship/spaceship.zsh. [More details](https://spaceship-prompt.sh/sections/)
 
