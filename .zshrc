@@ -40,6 +40,9 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#787c99"
 source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Colored Man Page
 source $ZDOTDIR/zsh-colored-man-pages/colored-man-pages.plugin.zsh
+# FZF
+source $ZDOTDIR/fzf/completion.zsh
+source $ZDOTDIR/fzf/key-bindings.zsh
 
 # aliases
 source $ZDOTDIR/alias.zsh
