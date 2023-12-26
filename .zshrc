@@ -31,12 +31,13 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
-# aliases
-source $ZDOTDIR/alias.zsh
-
 # AutoSuggestions
 source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#787c99"
-
 # Syntax highlight
 source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Colored Man Page
+source $ZDOTDIR/zsh-colored-man-pages/colored-man-pages.plugin.zsh
+
+# aliases
+source $ZDOTDIR/alias.zsh

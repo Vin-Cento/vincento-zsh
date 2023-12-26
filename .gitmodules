@@ -4,3 +4,6 @@
 [submodule "zsh-syntax-highlighting"]
 	path = zsh-syntax-highlighting
 	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+[submodule "zsh-colored-man-pages"]
+	path = zsh-colored-man-pages
+	url = git@github.com:ael-code/zsh-colored-man-pages.git
