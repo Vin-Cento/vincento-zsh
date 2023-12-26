@@ -7,5 +7,14 @@ The story of this configuration started back in 2020. Back then I made the consc
 ![Alt Text](assets/zshconfig.gif)
 
 
+## Requirement
+* fzf
+
 ## Prompt ([Spaceship](https://github.com/spaceship-prompt/spaceship-prompt))
 I picked an existing prompt. You can edit the setting of `spaceship-prompt` in ~/.config/spaceship/spaceship.zsh. [More details](https://spaceship-prompt.sh/sections/)
+
+## Features
+* autosuggestion
+* autocompletion
+* syntax-highlighting
+* fzf
