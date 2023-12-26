@@ -19,11 +19,11 @@ source $ZDOTDIR/cursor_style.zsh
 # AutoComplete
 autoload -Uz compinit && compinit
 autoload -Uz bashcompinit && bashcompinit
-# AutoComplete Style
-zstyle ':completion:*' menu select 				# highlight selected
-zstyle ':completion:*:default' list-color ${(s.:.)LS_COLORS} 	# color for file
 zmodload zsh/complist
-_comp_options+=(globdots)					# Include hidden files.
+# AutoComplete Style
+zstyle ':completion:*' menu select 				                    # highlight selected
+zstyle ':completion:*:default' list-color ${(s.:.)LS_COLORS} 	# color for file
+_comp_options+=(globdots)					                            # Include hidden files.
 # AutoComplete with vim binding
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
@@ -34,5 +34,6 @@ bindkey -v '^?' backward-delete-char
 # aliases
 source $ZDOTDIR/alias.zsh
 
+# AutoSuggestions
 source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#787c99"
